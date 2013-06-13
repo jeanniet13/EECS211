@@ -1,0 +1,31 @@
+create_event E1  10  1
+create_event E2  20  2
+create_event E3  30  3
+create_event E4  70  7
+create_event E5  90  9
+status events
+time_click
+time_click
+process_events
+create_event E6  80  8
+create_event E7  40  4
+status events
+time_click
+time_click
+process_events
+create_event E8  60  6
+status events
+time_click
+time_click
+process_events
+time_click
+time_click
+time_click
+time_click
+process_events
+status   events
+create_event E9  200  20
+status   events
+halt
+
+

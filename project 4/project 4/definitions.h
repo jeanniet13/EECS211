@@ -1,0 +1,2 @@
+#define MAX_CMD_LINE_LENGTH 256
+#define MAX_TOKENS_ON_A_LINE 30

@@ -1,0 +1,16 @@
+create_device digital_sensor  "Left Turn Signal"  21   OFF
+create_device digital_sensor  "Right Turn Signal"  22   ON
+create_device digital_sensor  xyz  99    MAYBE
+create_device analog_sensor   "Accelerator"  41    0  10
+status
+create_device analog_sensor   abc     42     1000    8
+create_device digital_controller   "Left Turn Lamp"  45
+create_device digital_controller   "Right Turn Lamp"   46
+create_device analog_controller    Motor  51    0    100   0
+create_device analog_controller    ac1    52    5    255   32
+create_device analog_controller    ac2    52    400    255  5
+create_device junk  "Junk device"  99
+status
+halt
+
+

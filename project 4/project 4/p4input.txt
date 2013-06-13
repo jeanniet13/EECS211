@@ -1,0 +1,6 @@
+create_device digital_controller   "Left Turn Lamp"    51
+create_device analog_controller    Motor               61    0    100   0
+time_click
+status events
+set_device_value  "Left Turn Signal" 1
+set_device_value  Brake 36456

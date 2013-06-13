@@ -1,0 +1,12 @@
+status 158
+status       0
+status 0000
+create_device
+create_event
+create_noise
+time_click
+time_piece
+set_device_value
+process_events
+halt
+extra_one
